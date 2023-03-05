@@ -1,0 +1,299 @@
+inherited F_Pedido_LgXhdpiPh: TF_Pedido_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited LayoutTopo: TLayout
+    Size.Width = 450.000000000000000000
+    inherited RectangleTopo: TRectangle
+      Size.Width = 450.000000000000000000
+      inherited ImageVoltar: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0136494441546843ED97CD6E82501085B1085D77DDC7551B9FC165375DD5956F
+              54ABAE7C0008D033704820FC848D65D4F32537F76F48BE81B9A081104208F1B4
+              1445116559B64992E48C76C4F8C3D6B8ED1BCA7FA36F81B53543FC024F93DF57
+              CA6DEC6930CC27701C943790C02F43FD01BFDEB26982FD15C37D01B729F2B6EF
+              EF109BD458D91892BF052625F9393029C9CF01A4969473877D20D16DD162EA76
+              618077B6D42D59B02F4196D7288ADE3875499AA6A7388EDF390D5ED89740BE35
+              BF075AC2799EEF38744B18869F1C76417DD9211E7D03CDC5A4436C2060CA6BF4
+              80A7F5CA4BFC014725E102388690FCAA74FB5112FF011C1F2289FBFD91576372
+              941C04FB3EFFD4D7C071B49CF0C1B930D42FF01C4C02091C19E61BB8F69693FB
+              126A025F4B628DBB7E42FBB1B1AD715B08218410E304C11F1097678873BDF990
+              0000000049454E44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\voltar.png'
+          end>
+      end
+      inherited LabelTitulo: TLabel
+        Size.Width = 450.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+      inherited LabelStatus: TLabel
+        Size.Width = 450.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+      inherited ImageDown: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01CA494441546843ED984B4EC3400C868BC402710224B804485C04167018BA03
+              51EEC1438283B0814B8078ED814D9B84CF8D118AA64D9CC92465E14F1A259DF9
+              FDDB49A66ED491E3388EE3388E135214C53A63329D4EDF181F59969DCB9C2EF7
+              86E4905C9AF7353A2F8117045660EE8AC39A4A9223DE9AA3825C844AEC70F5EF
+              1A5F21CFF313952447BC354D0579122AB1B3EC0298274F7EA8B26488A7786B9A
+              0A511740DCA40C0FC1F093847B2AED8C7889A7DA07446D21E23666B3D97D6911
+              42C217126FAB3C1AACB6F07A2A5D43A8E191C3A6CADB4160AD393C30E2CC8158
+              CB4DDA51791C18ECD63D5EB865B4EE4C12C3D6B89C3B2C809CDFE4DE57793730
+              3AC03053EF00D65B772662C61A1E402E96F36395A6C190F048A58DA06DBA2163
+              95A603DF853F32BF581F399ADA2D498E3B0EFDFC5862DCA93321E9AFE3582141
+              546762AEFF8E63A5ED3690F314DB2F2924347726CE87ED38562C853186EF3856
+              C82F5BE3A62C2584C2BF64E8C7008DEDEDF5DC0405D47E39973148C7B142214D
+              9DA902DAE13A8E150A6A7A679A8366F88E63A5E90BCB1A9215751C2B14B8B433
+              C99ACAFE2FD4299DE9BA2CF90F9D5B6DC7B142A1F2D7C8195BE65906E7A732A7
+              CB8EE3388EE3384E1246A31FBC89973C1F685DE30000000049454E44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\down.png'
+          end>
+        Position.X = 415.000000000000000000
+        Visible = False
+      end
+      inherited ImageUP: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0215494441546843ED963D4E5B4114850D5140282D52A4486C80824850245B20
+              4D1A68C242A04B08EE6007A448D2D0247B4893264576603911208B1259510ADB
+              98EFFA1D2C9EC67E1E63BF1FA4FB49233F66CEBDF7781E1C51731CC7711CC771
+              E64BBFDF7FDAEBF5EA9D4EA7618BE723DBD371B5C1E80286BFF199427B0B9255
+              17DDF64838FB285935C1E32EBF323789DD103B833DC9AB05FEB630F82FB13A1E
+              34FFF912AF55560D30F4026317F23811B42D6AD6545E2E1859E976BBBFE42D1A
+              6A7E53FB4C6DCA011F2313E70E6EBA6D4B3F06949E4C598983F11E37FC96F586
+              E7AEB6034A4B268CED606C6CE270BE2FA9BDA9836437C47AC03B498B81B99989
+              C3AD7E9574087B9F741C40AFE29289419989C31FE74F34CB920FE16889F56320
+              1A013DF34F260664260E26FEA0792E79009255348D441D926B32D1DF12E72C19
+              1582B136C35F4A3E1634EB68AF5516C08CEF7C2C4A3E3F2C2D921121181A248E
+              A41341BB4D4D56321D4A3A1F18189D38B150564C32D168938653254E2CD49EAA
+              4D00332D995E49FA3068608973AE9E01E31227165AE4974C14CE9438B1D02A9F
+              64E2F59EA84700032D7136249D19EB653DD53E002FC792C643C32BD5A7607FAA
+              C489C57A5A6F8D49C17E4BB278AC48F529183475E2C462BD3526055E2E258987
+              D75657FD7D3EEB383798FB45B386B037FD7FACD43D617DE0DBFF6535B99DF7B6
+              A7E3DCB837B769B3EDB988B98EE3388EE3388F8F5AED166088847FA886785B00
+              00000049454E44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\up.png'
+          end>
+        Position.X = 415.000000000000000000
+      end
+      inherited Line1: TLine
+        Size.Width = 450.000000000000000000
+      end
+    end
+    inherited LabelCliente: TLabel
+      Size.Width = 430.000000000000000000
+    end
+    inherited LabelCondicao: TLabel
+      Size.Width = 430.000000000000000000
+    end
+    inherited LabelCobranca: TLabel
+      Size.Width = 430.000000000000000000
+    end
+    inherited LabelNomeCliente: TLabel
+      Size.Width = 360.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+    end
+    inherited LabelNomeCondicao: TLabel
+      Size.Width = 360.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+    end
+    inherited LabelNomeCobranca: TLabel
+      Size.Width = 360.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+    end
+  end
+  inherited LayoutBottom: TLayout
+    Position.Y = 635.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited RectangleBottom: TRectangle
+      Size.Width = 450.000000000000000000
+      inherited ImageNovo: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0296494441546843ED98BF8B134114C7DF9B0D594484E42C4292C2FCB858085A
+              AA70965788606961C87F61A9A0165ADD7F21A7A0AD0716577A08DA29D85C92D3
+              E292088789784D4232CF99E49DAEDCE6C76632BB1AF281C9FBB1FB98F966DFCC
+              C2C2FF0EB29D1B2212ED66BD8C88594ECD84AA3B4CA60BDBAA8E383517C602BE
+              376A1544F18CC34090C4CA5A36B7CDE15C08B673A316BFCE6E60505089DDB931
+              7E02EDE6C123651E8E22DA23C2B723DF1FD53137D4EF06878F93E9BCAE8F0E2D
+              400DE231753141EF9F86710B45CDA9160A7AAAA896D94484CD910FBBAA457687
+              17C610F4FE13C69D5AA704989C2AB6F13BB596B285B0DDF85A06A4CB9C9A8A04
+              B8048EFA3706F0995313097ABF86047C5C4BE55E98BEF8FE3926BE073ADFF6D7
+              FB7DE78DF663B1C1CD44AA541D5EB04C907927EE012963771C81453DB4CF69EB
+              049977A200F5785C76FFF26D13645E6BA7906E83A3C37A550FED737AE1581310
+              56FB59131056FB19096837EA4F3B5FAAC7CA3EE1D4CC98D47A3112D013E21EB9
+              CED981B29C9A19935A2F4602E244716D1DA2C02D6252EBC5DA1E088B9580A859
+              09889A9580A85909889A9580A85909881A23013DC49EB603C4EE301100935A2F
+              4602E2526EA9E98F1D925B9C9A19935A2F46029299C2FD442E7F2E992E3CE0D4
+              CC98D47AB1B60708E0776B78FD45634D8010FD5792A0AAC6BE10E225A7178E35
+              01FA73E0F94CBEA4C6C544EA428DD30BC79A80B0587201043FD9D314D98600FD
+              F91449F0833D5F90AD2F47AD83EB0EC13BED77BB5D72DDF873E57ED2B13508AE
+              747BBDBBAEEB0ED78620AF25D2C5F7C36B3E4C14A069B7EA3B40788BC37091F0
+              3A99CDDFE6C897A97B80E25406493B1C86875A3C9D91158EC632F5099CD069D6
+              AE12890DF5524A71CA0A48D042947B894CF103A79619805FD93C17B5EB14807C
+              0000000049454E44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\delete2.png'
+          end>
+      end
+      inherited LayoutTotais: TLayout
+        Position.X = 317.000000000000000000
+      end
+    end
+  end
+  inherited LayoutCliente: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 435.000000000000000000
+    inherited TabControlPedido: TTabControl
+      Size.Width = 450.000000000000000000
+      Size.Height = 435.000000000000000000
+      Sizes = (
+        450s
+        386s
+        450s
+        386s
+        450s
+        386s)
+      inherited TabItemItens: TTabItem
+        Size.Width = 150.000000000000000000
+        ExplicitSize.cx = 145.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited ListViewItens: TListView
+          Size.Width = 450.000000000000000000
+          Size.Height = 386.000000000000000000
+          inherited ImageDetalhe: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+          end
+          inherited ImageFoto: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+          end
+        end
+      end
+      inherited TabItemTotais: TTabItem
+        Size.Width = 150.000000000000000000
+        ExplicitSize.cx = 145.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited LayoutTotal1: TLayout
+          Size.Width = 450.000000000000000000
+          inherited Layout1: TLayout
+            inherited LabelIPI: TLabel
+              Padding.Top = 10.000000000000000000
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Layout2: TLayout
+            Position.X = 300.000000000000000000
+            inherited LabelFrete: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout3: TLayout
+          Size.Width = 450.000000000000000000
+          inherited Layout4: TLayout
+            inherited LabelBaseICMSST: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Layout5: TLayout
+            Position.X = 300.000000000000000000
+            inherited LabelICMSST: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout6: TLayout
+          Size.Width = 450.000000000000000000
+          inherited Layout7: TLayout
+            inherited LabelBaseICMS: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Layout8: TLayout
+            Position.X = 300.000000000000000000
+            inherited LabelICMS: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout9: TLayout
+          Size.Width = 450.000000000000000000
+          inherited Layout10: TLayout
+            inherited LabelSubtotal: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Layout11: TLayout
+            Position.X = 300.000000000000000000
+            inherited LabelDesconto: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout12: TLayout
+          Size.Width = 450.000000000000000000
+          inherited Layout13: TLayout
+            inherited LabelAcrescimo: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Layout14: TLayout
+            Position.X = 300.000000000000000000
+            inherited LabelTotal: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+      end
+      inherited TabItemParcelas: TTabItem
+        Size.Width = 150.000000000000000000
+        ExplicitSize.cx = 146.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited ListViewParcelas: TListView
+          Size.Width = 450.000000000000000000
+          Size.Height = 386.000000000000000000
+          inherited ImageParcelaMore: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+          end
+          inherited ImageParcela: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+          end
+        end
+      end
+    end
+  end
+end

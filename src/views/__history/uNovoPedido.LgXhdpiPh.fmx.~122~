@@ -1,0 +1,916 @@
+inherited F_NovoPedido_LgXhdpiPh: TF_NovoPedido_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited LayoutTopo: TLayout
+    Size.Width = 450.000000000000000000
+    inherited RectangleTopo: TRectangle
+      Size.Width = 450.000000000000000000
+      inherited ImageVoltar: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+      end
+      inherited LabelTitulo: TLabel
+        Size.Width = 450.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+      inherited ImageCesta: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              052A494441546843ED984F681C6514C0379B6C52171B63A2A216AC5225D084FA
+              07F562B4FEA9288845AC971E0445F020E8D583A855F0247AF126E85144911EBC
+              54A87FDAAA41AB6894C48D2D5E961E0C490C5474379B64FDBD376F866F666766
+              6767936DC1FC20CC9BF7E67B7FBE79DFF74DB6B0CD36FF73FAEC9A9B66B3293E
+              F673BD99EB0E55B6A7D6D7D737C3F504D7A6A7BA006C6C6CEC5A5B5B9B26F95C
+              C8587C5C6BEE7A0BF14B24F0AB974A7EF0F10B9792B9ED98DC2DC4CC1DE6F57F
+              20F2CACA4A6D7878F8FD62B1785E8D6D60EC8E5AADF674B95C1E967B0A38CCD8
+              0FD5D82BD6D7D73FD62904127AD1D49961D853DEE866537C99BA3710B3AF5EAF
+              FFE985D70226CD9419865DED8D6E36791B0B5CBADE503223097BA1BB0BDE6834
+              7EF7BCE49B04A168D74EB9D7AE8552A9947B2BA4EF4F9928043E3B2157014CD8
+              7E130B247FC2C48E710B707D6E2904EABAFF7D18BBC7DCF46E1D6C56FFFBACAE
+              AE9EF3BCE59B8C3C2DB429FDEFD3DFDFFFB58942C7EB20347BCCC0212E377A77
+              F1C83304BDC3E4CF28E04B35E48489BF8FB5F090C89C07A7913F51433267139F
+              C1C1EBDECBBC78911C2D5D25D442DDEC28BD229A63A88528B0BCB4B4B43C3636
+              3624F7B4C8BBBCAEBFD468F0F17568606040DB0CFBA7D8E7D41081999AA2D5EE
+              32F99B48AF07E0632F3E1E1519DF67F11D6A0FEC97637F566472AB93DB2845FC
+              A3C6387072D27B59BA2B3C61EA009279DBCC627FD9D42D603EE23DA51C31750B
+              F878C59E91F678CBD401928399E5CBF5A4A9035A7621AAFBCAC4D8C305FBCF26
+              8AFD161373E3FA707DFBB839B8B9F9C41510F41883E3B6B52008B3D37501111F
+              71050439B8B9F9C49D03DF4AAF8950A954260870956A0D9CCCC9F7BFC8F3F3F3
+              3710E03235E400DFC3F8B85E648989EF8A1A0CEC574A0E222F2C2CAC629F5643
+              3BDAAD03EC3F9A59ECF7983A04A6B66B80B1F2BFB4CF0FA60E90D8668BED7F21
+              F624A6D2CCEB00BA69A3602CC976DCFF425201A9EBC02D007BEE02DCB1914951
+              DCD86E4E2EB10540EA3A802D2F809899FA3FF14B527A8EC3E76E9171F61E0ECE
+              A80108BC93C3E52591A5D0D1D1D157D5E0C0330778E680C88C3FCEF8E36A7058
+              5E5E7ECD3934DFE099E04701C6DFC4F86744E67C38C50117BBD61261D045F35D
+              24B9585A2D24B55062CF5D08D272496C210A4FFD2EE27E92FB474466866668B7
+              636A30D0A57E0BA17B189DFC1C29BEBEC0D7693500F79770FF82C8D2A26DBF7F
+              92889C078F9B5A4135E559F415B7F437EAD47380319F9B4D7C1F34B5C2FD8366
+              4ADCFF7D125B48A06AF73C082D22EE6766676737446E341A1DEF448CD96762CB
+              0EC4FD0326867288A35D01EE79103AD078C5E7C7C7C7FF10796868680CFB756A
+              C80033BC9B315788CCFFD52B5CAA223BE8EE25B839C4915A00B8E7C13E921C51
+              AD411179CF83E0D9C1C1C19F4832F8BF9AE2C678B3B78A9CE5FB27B50012FC77
+              6464E47B912726268A2439A50603E7F21BBF4FAE0220DA3EF74B2C9159BCDF71
+              9FBA78DBBD81500F5240F430090AC0A63B4A16DC672393206F2073FF0B590A48
+              5C0710CC1E81F5B56721F26CF4132273FF0B590A98F6D741B55ABD8D00D7A801
+              68B16ABD5E5F1259BEEB2930B446E290677876B7C8D6E3BFA901F03DC927C31E
+              9125A6C456430A997E5563CF3E4AB28F89CCBE5C41FE08E7DA9BDC3F572A9574
+              07228177D09F13994463BF85D0EF42FFBCC8523C8BF84DD35F4A9C27F1A5C531
+              E628075DE8ECC90DCEEE5C5C5CAC11A427482C62DE6EE137071C1E747FD4DD2A
+              2406B1F467962C646A211F1CEFE4223F03EEA525CAAADC24C85D5A720EBFC7F8
+              FBDBD36EB3CD36E9140AFF018D7E420D0CEE4FA90000000049454E44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\cesta.png'
+          end>
+        Position.X = 415.000000000000000000
+        inherited ImageNumeroItens: TImage
+          MultiResBitmap.Height = 80
+          MultiResBitmap.Width = 80
+        end
+      end
+      inherited LabelNumero: TLabel
+        Size.Width = 450.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+      inherited ImageFinalizaPedido: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+      end
+      inherited LabelEmpresa: TLabel
+        Size.Width = 450.000000000000000000
+      end
+    end
+  end
+  inherited LayoutBottom: TLayout
+    Position.Y = 635.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited RectangleBottom: TRectangle
+      Size.Width = 450.000000000000000000
+      inherited ImageExclui: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              02AE494441546843ED993D88134114C7B39B4463C43516271841172B3F103950
+              2C2CECD4FE1A3BC142846B040B51B41005C1464B456C2CB4B1B610142CB4D042
+              6D449B4B1A3101E122924B369FFEDEE4E5884A4C36B76623CE0F26EFED7F7767
+              E7BD79B3C7CE252C96FF1C476D2474BBDD24ED28EE3E5AD6883FD3A57DA13D77
+              5DF7B351660506BEABD56ABDC78EA45C2E079D4EE792DE1A3F0C667DB3D9FCA8
+              E31B1BEE3BA55D4C4C2425C4404E3A8EF3487C666129994CDEE63830277F816B
+              E7299FB3E273EDA7743ABDDB9C889376BB7D43932A595D5079280CFC9D5E2ED7
+              6F50792242CD000FF3C8AC2C5459A0EB7AAAA9FFCB64F5B4FA67B8E68D393104
+              02BEC72C1DD4C379EEF9A67E827BBF63DAB42A7EC38851C043EFF0A0A951ABD5
+              964998BCCDFE88AB762474765CDDA990C9647298C3BDA3E18C5D42047082C42C
+              361A8D2374BE45B47ABDBE8C9177BB53AD56B341108C9D10C1F3BC462A95328B
+              9DBEB2B95C2E233EB3FD96F27945BB406956458B0C16E08BDE249B05E8A9BC66
+              18F44DED56FA3DA6F24842656C16892C00B2B6872C3EC4AEFE71C2DF89F600BB
+              A892685BD1EE632FAA345D869510837A2C5AA15068A26F54EDAE6A489DEDAA5D
+              174D403B209A801E7B096D921FDFF753181300F4357959F483359AB259EDC4D8
+              3510373680B8B101C48D0D206E6C00716303881B1B40DCD800E2C60630404D7E
+              8AC5A26CB3187FC00A2BF2E3BAEE6FDA5419F64D8C7F88EFDA67D8F32A89B617
+              ED29EDAA4AFD0FFD27B45B74B1BA2FC5F144DFC4A1F9E7F7851CC769AA2BACF9
+              A37C00D94A3484D9D40DFDFF01997AEAF89CF8CCC607FC97B852F76BC12B954A
+              0BF97C3ECD1A6AF9BEBF8D20BEEAB968617AE7822028EB6C470E09BAA68FFA7B
+              10C47EB2FF5A9F1909954A65857EAFE0CABED2D8842EA14178D80ECC5CEF6872
+              E8476A7E29F29D688BC532EB24123F0058F11FEC668285BB0000000049454E44
+              AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\lixeira.png'
+          end>
+      end
+      inherited LayoutTotais: TLayout
+        Position.X = 317.000000000000000000
+      end
+      inherited ImageImprime: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              032F494441546843ED98BF6B535114C7D3440A0AC10E2208761091422B3AB849
+              C5D9457173777029280E8293E0623B4AFD0BC482930EBA74B020EAEA2E6251C4
+              228F4042C09AA44DEAE7DC7E13527C4DDE8FFB5EAAE403877BCE79E79E7BCE7B
+              37EFDDB63066CC98ECE8743A67EBF5FAAF9D14B45AAD1F0C8BC8A4D2E603C5CF
+              552A9586ABC20F8B4A9D3D61C5EB526C983A6FF3ED49C8952DFDC5F737A1CB89
+              508A54392241F1B3D56AF5B72D16044113FB9C5B19149208A5C8B681B0E2CDEF
+              5606179410A5C8AE81FD8A37DCCA2033114A914D03838A37DCCA2033114AE1BF
+              8161C51B6E65909908A5F0DB4094E20DB732C84C8452F86D20EE1756D312A114
+              A1398A1A63532E978F481D4ABBDD7E27F5E0A09BE2F7B1EE8396F2FB040E0AFF
+              67033CAD49F6ED52B3D9DCD87D787FA3D0DEE3ED676447E02E5ADC075E8EC0CA
+              15FDF7A63BB8C3BBFDA25CB160AAD723B0E53264EE6142E31EBAC11340130B98
+              D78AC56215D712FA496401BDC1E53564D9AE2337356785D815EC5E0E1BD33028
+              D7D01F317367183E32BEDCDADA7A813E8D54C8F504DF651A7C807D1AD9C0F790
+              F12D921B51DF42C7905314B8B96B16BE72975791BB3471DD1C8C17905BA867CC
+              CE8B480D50D80C32552A95AECAE5C0374B53DF4D675C47EC09AD9B9D17911AE0
+              4E3FA7F87B8C9FCD66DBDCE035BB863CC677DF05150A5FD05F21DF64E742941F
+              B1EDF9268505E6C33E8E7B9A9016E327A4653E2E1D2266C3628CFE1CCE9182D8
+              B9BAAF5198972B163474C926E7F11A0D85582F1F32B6D823A54C85D2C56A6012
+              59EC7B12B1D0BCD0A3C4F6F6F607171402D7428FDDBA1CDA40E2FDD94D18778F
+              EF574897B07C83D68AFA1DF08E15D38FDCB1195903BE1837306A726BC0BEDCC3
+              7EC086C510FB46E650726B80BA8E4A0DFD2F05BEF7522D764A6A76D89D32640E
+              85AFF35CAD56DBB439E87B0E8506BE2B411074EC5FF2E8E7E576B88540A61F94
+              3356520ABB63731A8D46807E426E77BEE2EFEF9F760DFDB6DC3DCC6FC8F44392
+              F312B1136C95D7368971D5EC309FC21D34E4F55CD5839CA9CF4B14FC14792673
+              20C4793957F52067AAF392C19E6F99C80C65D0B96AA47047ED6F6A07FAB2DCFF
+              0EECEDC3763235315DEE3163F2A550F8035641BEA442F1635D0000000049454E
+              44AE426082}
+            FileName = 'D:\ProDelphiCE\TSC-PedidoMobile\Imagens\pedidoPDF.png'
+          end>
+      end
+      inherited Image13: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+      end
+    end
+  end
+  inherited LayoutCliente: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 555.000000000000000000
+    inherited TabControl1: TTabControl
+      Size.Width = 450.000000000000000000
+      Size.Height = 555.000000000000000000
+      TabPosition = None
+      Sizes = (
+        450s
+        555s
+        450s
+        555s
+        450s
+        555s
+        450s
+        555s
+        450s
+        555s)
+      inherited TabItemIncluiItem: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited Layout1: TLayout
+          Size.Width = 450.000000000000000000
+          inherited RoundRectPesquisa: TRoundRect
+            Size.Width = 430.000000000000000000
+            inherited EditPesquisa: TEdit
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              Size.Width = 350.000000000000000000
+              inherited ImagePesquisa: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+              inherited ImageLimpa: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+                Padding.Right = -25.000000000000000000
+                Margins.Left = -35.000000000000000000
+                Position.X = 356.000000000000000000
+              end
+            end
+          end
+          inherited LabelSeleciona: TLabel
+            Size.Width = 440.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+          inherited Layout3: TLayout
+            Size.Width = 450.000000000000000000
+            inherited LayoutCEAN: TLayout
+              Position.X = 355.000000000000000000
+              inherited ImagePesquisaCEAN2: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+              inherited ImagePesquisaCEAN: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+            end
+            inherited LayoutDescricao: TLayout
+              Position.X = 300.000000000000000000
+              inherited ImagePesquisaDescricao: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+              inherited ImagePesquisaDescricao2: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+            end
+            inherited LayoutCodigo: TLayout
+              Position.X = 245.000000000000000000
+              inherited ImagePesquisaCodigo2: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+              inherited ImagePesquisaCodigo: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+            end
+          end
+        end
+        inherited Layout2: TLayout
+          Size.Width = 450.000000000000000000
+          Size.Height = 445.000000000000000000
+          inherited ListViewPesquisa: TListView
+            Transparent = True
+            Size.Width = 430.000000000000000000
+            Size.Height = 405.000000000000000000
+            ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+              item
+                AppearanceObjectName = 'ImageFundo'
+                AppearanceClassName = 'TImageObjectAppearance'
+                Appearance.Width = 50.000000000000000000
+                Appearance.Height = 50.000000000000000000
+                Appearance.PlaceOffset.Y = 10.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'TextDescricao'
+                AppearanceClassName = 'TTextObjectAppearance'
+                Appearance.Font.Size = 13.000000000000000000
+                Appearance.Font.StyleExt = {00060000000000000004000000}
+                Appearance.TextAlign = Leading
+                Appearance.TextVertAlign = Leading
+                Appearance.TextColor = claGray
+                Appearance.Width = 338.000000000000000000
+                Appearance.Height = 20.000000000000000000
+                Appearance.PlaceOffset.X = 61.000000000000000000
+                Appearance.PlaceOffset.Y = 6.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'TextCodigo'
+                AppearanceClassName = 'TTextObjectAppearance'
+                Appearance.Font.Size = 11.000000000000000000
+                Appearance.TextAlign = Leading
+                Appearance.TextColor = claGray
+                Appearance.Width = 338.000000000000000000
+                Appearance.Height = 17.000000000000000000
+                Appearance.PlaceOffset.X = 61.000000000000000000
+                Appearance.PlaceOffset.Y = 26.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'TextValor'
+                AppearanceClassName = 'TTextObjectAppearance'
+                Appearance.Font.Size = 16.000000000000000000
+                Appearance.Font.StyleExt = {00060000000000000004000000}
+                Appearance.TextAlign = Leading
+                Appearance.TextColor = claDarkslategray
+                Appearance.Width = 204.000000000000000000
+                Appearance.Height = 30.000000000000000000
+                Appearance.PlaceOffset.X = 61.000000000000000000
+                Appearance.PlaceOffset.Y = 44.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'ImageDetalhe'
+                AppearanceClassName = 'TImageObjectAppearance'
+                Appearance.Width = 111.000000000000000000
+                Appearance.Height = 56.000000000000000000
+                Appearance.Align = Trailing
+                Appearance.PlaceOffset.Y = 24.000000000000000000
+              end>
+            inherited ImageDetalhe: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 200
+            end
+            inherited ImageFoto: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+          end
+          inherited LabelTotalPesquisa: TLabel
+            Size.Width = 440.000000000000000000
+            Size.Height = 25.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            Text = '9999 - Produtos Pesquisados '
+            inherited LinePesquisa: TLine
+              LineType = Top
+              Margins.Top = 20.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 430.000000000000000000
+            end
+          end
+        end
+      end
+      inherited TabItemFinalizaPedido: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited LayoutClienteFinaliza: TLayout
+          Size.Width = 450.000000000000000000
+          inherited LabelDadosPedido: TLabel
+            Size.Width = 440.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+          inherited Line1: TLine
+            Size.Width = 430.000000000000000000
+          end
+          inherited RoundRectCliente: TRoundRect
+            Size.Width = 430.000000000000000000
+            inherited EditCliente: TEdit
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              Size.Width = 350.000000000000000000
+              inherited Image3: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+              inherited ImageLimpaCliente: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+                Position.X = 356.000000000000000000
+              end
+            end
+          end
+          inherited LabelTituloCliente: TLabel
+            Size.Width = 435.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited LayoutCondicaoFinaliza: TLayout
+          Size.Width = 450.000000000000000000
+          inherited RoundRectCondicao: TRoundRect
+            Size.Width = 430.000000000000000000
+            inherited EditCondicao: TEdit
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              Size.Width = 350.000000000000000000
+              inherited Image5: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+              end
+              inherited ImageLimpaCondicao: TImage
+                MultiResBitmap.Height = 48
+                MultiResBitmap.Width = 48
+                Position.X = 356.000000000000000000
+              end
+            end
+          end
+          inherited LabelCondicao: TLabel
+            Size.Width = 435.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited ListView1: TListView
+          Size.Width = 450.000000000000000000
+          Size.Height = 380.000000000000000000
+        end
+        inherited LayoutItens: TLayout
+          Size.Width = 450.000000000000000000
+          Size.Height = 290.000000000000000000
+          inherited ListViewItens: TListView
+            Size.Width = 430.000000000000000000
+            Size.Height = 250.000000000000000000
+            ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+              item
+                AppearanceObjectName = 'ImageFundo'
+                AppearanceClassName = 'TImageObjectAppearance'
+                Appearance.Width = 50.000000000000000000
+                Appearance.Height = 50.000000000000000000
+                Appearance.PlaceOffset.Y = 10.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'TextDescricao'
+                AppearanceClassName = 'TTextObjectAppearance'
+                Appearance.Font.Size = 15.000000000000000000
+                Appearance.Font.StyleExt = {00060000000000000004000000}
+                Appearance.TextAlign = Leading
+                Appearance.TextVertAlign = Leading
+                Appearance.TextColor = claDarkslategray
+                Appearance.Width = 350.000000000000000000
+                Appearance.Height = 22.000000000000000000
+                Appearance.PlaceOffset.X = 60.000000000000000000
+                Appearance.PlaceOffset.Y = 4.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'TextCodigo'
+                AppearanceClassName = 'TTextObjectAppearance'
+                Appearance.Font.Size = 11.000000000000000000
+                Appearance.Font.StyleExt = {00060000000000000004000000}
+                Appearance.TextAlign = Leading
+                Appearance.TextColor = claGray
+                Appearance.Width = 347.000000000000000000
+                Appearance.Height = 17.000000000000000000
+                Appearance.PlaceOffset.X = 60.000000000000000000
+                Appearance.PlaceOffset.Y = 26.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'TextValor'
+                AppearanceClassName = 'TTextObjectAppearance'
+                Appearance.Font.Size = 15.000000000000000000
+                Appearance.Font.StyleExt = {00060000000000000004000000}
+                Appearance.TextAlign = Leading
+                Appearance.TextColor = claDarkslategray
+                Appearance.Width = 155.000000000000000000
+                Appearance.Height = 25.000000000000000000
+                Appearance.PlaceOffset.X = 60.000000000000000000
+                Appearance.PlaceOffset.Y = 70.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'ImageDetalhe'
+                AppearanceClassName = 'TImageObjectAppearance'
+                Appearance.Width = 65.000000000000000000
+                Appearance.Height = 30.000000000000000000
+                Appearance.Align = Trailing
+                Appearance.PlaceOffset.X = -47.000000000000000000
+                Appearance.PlaceOffset.Y = 63.000000000000000000
+                Appearance.Opacity = 0.600000023841857900
+              end
+              item
+                AppearanceObjectName = 'ImageSoma'
+                AppearanceClassName = 'TImageObjectAppearance'
+                Appearance.Width = 40.000000000000000000
+                Appearance.Height = 40.000000000000000000
+                Appearance.Align = Trailing
+                Appearance.PlaceOffset.Y = 55.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'ImageSubtrai'
+                AppearanceClassName = 'TImageObjectAppearance'
+                Appearance.Width = 40.000000000000000000
+                Appearance.Height = 40.000000000000000000
+                Appearance.Align = Trailing
+                Appearance.PlaceOffset.X = -119.000000000000000000
+                Appearance.PlaceOffset.Y = 55.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'TextQuantidade'
+                AppearanceClassName = 'TTextObjectAppearance'
+                Appearance.Font.Size = 13.000000000000000000
+                Appearance.Font.StyleExt = {00060000000000000004000000}
+                Appearance.TextColor = claDarkslategray
+                Appearance.Width = 40.000000000000000000
+                Appearance.Height = 30.000000000000000000
+                Appearance.Align = Trailing
+                Appearance.VertAlign = Center
+                Appearance.PlaceOffset.X = -60.000000000000000000
+                Appearance.PlaceOffset.Y = 28.000000000000000000
+              end
+              item
+                AppearanceObjectName = 'TextSubTotal'
+                AppearanceClassName = 'TTextObjectAppearance'
+                Appearance.Font.Size = 11.000000000000000000
+                Appearance.TextAlign = Leading
+                Appearance.TextVertAlign = Leading
+                Appearance.TextColor = claGray
+                Appearance.Width = 155.000000000000000000
+                Appearance.Height = 17.000000000000000000
+                Appearance.PlaceOffset.X = 60.000000000000000000
+                Appearance.PlaceOffset.Y = 49.000000000000000000
+              end>
+            inherited Image1: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+            inherited Image2: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 100
+            end
+            inherited ImageSoma: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+            inherited ImageSubtrai: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+            inherited Image15: TImage
+              MultiResBitmap.Height = 200
+              MultiResBitmap.Width = 600
+            end
+          end
+          inherited LabelTotalItens: TLabel
+            Size.Width = 440.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            inherited Line3: TLine
+              Size.Width = 430.000000000000000000
+            end
+          end
+        end
+        inherited Layout4: TLayout
+          Position.Y = 485.000000000000000000
+          Size.Width = 450.000000000000000000
+          inherited RoundRectIncluiItem: TRoundRect
+            inherited Label3: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited RoundRectFinalizaPedido: TRoundRect
+            inherited Label15: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+      end
+      inherited TabItemPesquisaCliente: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited LayoutCliente1: TLayout
+          Size.Width = 450.000000000000000000
+          Size.Height = 555.000000000000000000
+          inherited ListViewCliente: TListView
+            Size.Width = 430.000000000000000000
+            Size.Height = 515.000000000000000000
+            inherited Image9: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 200
+            end
+          end
+          inherited Label1: TLabel
+            Size.Width = 440.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            inherited Line2: TLine
+              Size.Width = 430.000000000000000000
+            end
+          end
+        end
+      end
+      inherited TabItemPesquisaCondicao: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited LayoutCliente21: TLayout
+          Size.Width = 450.000000000000000000
+          Size.Height = 555.000000000000000000
+          inherited ListViewCondicao: TListView
+            Size.Width = 430.000000000000000000
+            Size.Height = 515.000000000000000000
+            inherited Image4: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 200
+            end
+          end
+          inherited Label6: TLabel
+            Size.Width = 440.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            inherited Line5: TLine
+              Size.Width = 430.000000000000000000
+            end
+          end
+        end
+      end
+      inherited TabItemTeste: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited Memo2: TMemo
+          Size.Width = 450.000000000000000000
+          Viewport.Width = 450.000000000000000000
+          Viewport.Height = 161.000000000000000000
+        end
+        inherited Button2: TButton
+          Position.Y = 161.000000000000000000
+          Size.Width = 390.000000000000000000
+        end
+        inherited Image12: TImage
+          MultiResBitmap.Height = 591
+          MultiResBitmap.Width = 768
+        end
+        inherited Button3: TButton
+          Position.Y = 205.000000000000000000
+          Size.Width = 390.000000000000000000
+        end
+        inherited Image14: TImage
+          MultiResBitmap.Height = 591
+          MultiResBitmap.Width = 768
+        end
+      end
+    end
+  end
+  inherited LayoutProdutoDetalhe: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited RectangleFundo: TRectangle
+      Size.Width = 450.000000000000000000
+      Size.Height = 695.000000000000000000
+    end
+    inherited RectangleDetalhe: TRectangle
+      inherited Rectangle2: TRectangle
+        inherited Layout5: TLayout
+          inherited Rectangle3: TRectangle
+            inherited Label7: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Rectangle4: TRectangle
+            inherited LabelDescricaoProduto: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout6: TLayout
+          inherited Rectangle5: TRectangle
+            inherited Label4: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Rectangle6: TRectangle
+            inherited LabelUnitarioProduto: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout7: TLayout
+          inherited Rectangle7: TRectangle
+            inherited Label8: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Rectangle8: TRectangle
+            inherited LabelMarcaProduto: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout8: TLayout
+          inherited Rectangle9: TRectangle
+            inherited Label10: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Rectangle10: TRectangle
+            inherited LabelFabricanteProduto: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout9: TLayout
+          inherited Rectangle11: TRectangle
+            inherited Label12: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Rectangle12: TRectangle
+            inherited LabelUnidadeProduto: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout10: TLayout
+          inherited Rectangle13: TRectangle
+            inherited Label14: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Rectangle14: TRectangle
+            inherited LabelCEANProduto: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+        inherited Layout11: TLayout
+          inherited Rectangle15: TRectangle
+            inherited Label16: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+          inherited Rectangle16: TRectangle
+            inherited LabelCodigoProduto: TLabel
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+            end
+          end
+        end
+      end
+      inherited Rectangle17: TRectangle
+        inherited LayoutFoto: TLayout
+          inherited Image6: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+          end
+          inherited Image7: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+          end
+        end
+      end
+    end
+  end
+  inherited LayoutCamera: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited RectangleFundoCamera: TRectangle
+      Size.Width = 450.000000000000000000
+      Size.Height = 695.000000000000000000
+    end
+    inherited CameraComponent1: TCameraComponent
+      OnSampleBufferReady = nil
+    end
+    inherited RectangleCamera: TRectangle
+      inherited Layout12: TLayout
+        inherited Memo1: TMemo
+          Viewport.Width = 337.000000000000000000
+          Viewport.Height = 98.000000000000000000
+        end
+      end
+    end
+  end
+  inherited LayoutGrade: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 695.000000000000000000
+    inherited RectangleFundoGrade: TRectangle
+      Size.Width = 450.000000000000000000
+      Size.Height = 695.000000000000000000
+    end
+    inherited RectangleGrade: TRectangle
+      inherited RectangleTitulo: TRectangle
+        inherited LabelTituloGradeNumeracao: TLabel
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+        end
+      end
+      inherited LayoutTituloTamanho: TLayout
+        inherited Label5: TLabel
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+        end
+      end
+      inherited LayoutTamanho1: TLayout
+        inherited RoundRectTamanho1: TRoundRect
+          inherited LabelTamanho1: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectTamanho2: TRoundRect
+          inherited LabelTamanho2: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectTamanho3: TRoundRect
+          inherited LabelTamanho3: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectTamanho4: TRoundRect
+          inherited LabelTamanho4: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectTamanho5: TRoundRect
+          inherited LabelTamanho5: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+      end
+      inherited LayoutTamanho2: TLayout
+        inherited RoundRectTamanho6: TRoundRect
+          inherited LabelTamanho6: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectTamanho7: TRoundRect
+          inherited LabelTamanho7: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectTamanho8: TRoundRect
+          inherited LabelTamanho8: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectTamanho9: TRoundRect
+          inherited LabelTamanho9: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectTamanho10: TRoundRect
+          inherited LabelTamanho10: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+      end
+      inherited LayoutTituloCor: TLayout
+        inherited Label9: TLabel
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+        end
+      end
+      inherited LayoutCor1: TLayout
+        inherited RoundRectCor1: TRoundRect
+          inherited LabelCor1: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectCor2: TRoundRect
+          inherited LabelCor2: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectCor3: TRoundRect
+          inherited LabelCor3: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectCor4: TRoundRect
+          inherited LabelCor4: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+      end
+      inherited LayoutCor2: TLayout
+        inherited RoundRectCor5: TRoundRect
+          inherited LabelCor5: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectCor6: TRoundRect
+          inherited LabelCor6: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectCor7: TRoundRect
+          inherited LabelCor7: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectCor8: TRoundRect
+          inherited LabelCor8: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+      end
+      inherited LayoutGradeBottom: TLayout
+        inherited RoundRectConfirma: TRoundRect
+          Margins.Top = 20.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          inherited Label11: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+        inherited RoundRectCancela: TRoundRect
+          inherited Label13: TLabel
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+          end
+        end
+      end
+      inherited LayoutTituloQtde: TLayout
+        inherited LabelQuantidade: TLabel
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+        end
+      end
+      inherited LayoutQuantidade: TLayout
+        inherited RoundRect2: TRoundRect
+          inherited EditQtde: TEdit
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            inherited Image10: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+            inherited Image11: TImage
+              MultiResBitmap.Height = 48
+              MultiResBitmap.Width = 48
+            end
+          end
+        end
+      end
+      inherited LayoutProduto: TLayout
+        inherited LabelProduto: TLabel
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+        end
+        inherited LabelPreco: TLabel
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+        end
+      end
+    end
+  end
+end

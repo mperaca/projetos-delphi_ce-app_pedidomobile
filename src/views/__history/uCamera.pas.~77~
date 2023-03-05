@@ -1,0 +1,267 @@
+unit uCamera;
+
+interface
+
+uses
+  System.SysUtils,
+  System.Types,
+  System.UITypes,
+  System.Classes,
+  System.Variants,
+  System.Math.Vectors,
+  System.Actions,
+  System.Threading,
+  System.Permissions,
+  FMX.Types,
+  FMX.Controls,
+  FMX.Forms,
+  FMX.Graphics,
+  FMX.Dialogs,
+  FMX.Objects,
+  FMX.StdCtrls,
+  FMX.Media,
+  FMX.Platform,
+  FMX.MultiView,
+  FMX.ListView.Types,
+  FMX.ListView,
+  FMX.Layouts,
+  FMX.ActnList,
+  FMX.TabControl,
+  FMX.ListBox,
+  FMX.Controls.Presentation,
+  FMX.ScrollBox,
+  FMX.Memo,
+  FMX.Controls3D,
+  {$IFDEF ANDROID}
+{    ZXing.BarcodeFormat,
+    ZXing.ReadResult,
+    ZXing.ScanManager,}
+    Androidapi.JNI.JavaTypes,
+    Androidapi.JNI.GraphicsContentViewText,
+    FMX.Helpers.Android,
+    Androidapi.Helpers,
+    Androidapi.NativeActivity,
+    Androidapi.JNIBridge,
+    IdURI,
+    Androidapi.Jni.Net,
+    Androidapi.JNI.Os,
+  {$ENDIF}
+  System.Rtti,
+  FMX.Memo.Types, FMX.CodeReader;
+
+type
+  TForm1 = class(TForm)
+    LayoutBottom: TLayout;
+    RoundRectSair: TRoundRect;
+    LabelSair: TLabel;
+    LayoutTopo: TLayout;
+    RectangleTopo: TRectangle;
+    LabelTitulo: TLabel;
+    RoundRect1: TRoundRect;
+    Label1: TLabel;
+    CodeReader1: TCodeReader;
+    Layout1: TLayout;
+    Rectangle1: TRectangle;
+    Text1: TText;
+    procedure FormCreate(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure RoundRectSairClick(Sender: TObject);
+    procedure LabelDigitarClick(Sender: TObject);
+    procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+    procedure RoundRect1Click(Sender: TObject);
+    procedure CodeReader1CodeReady(aCode: string);
+  private
+    fPermissionCamera: String;
+    fScanInProgress: Boolean;
+    fFrameTake: Integer;
+    fScanBitmap: TBitmap;
+    function AppEvent(AAppEvent: TApplicationEvent; AContext: TObject): Boolean;
+    procedure CameraPermissionRequestResult(Sender: TObject;
+      const APermissions: TArray<string>;
+      const AGrantResults: TArray<TPermissionStatus>);
+    procedure ExplainReason(Sender: TObject; const APermissions: TArray<string>;
+      const APostRationaleProc: TProc);
+    procedure AbreCamera;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+uses FMX.DialogService, uNovoPedido;
+
+{$R *.fmx}
+{$R *.LgXhdpiPh.fmx ANDROID}
+
+procedure TForm1.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Form1  := nil;
+  Action := TCloseAction.caFree;
+end;
+
+procedure TForm1.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+begin
+  CodeReader1.Stop;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+var  AppEventSvc: IFMXApplicationEventService;
+begin
+  Text1.Text := '';
+{$IFDEF ANDROID}
+  fPermissionCamera := JStringToString(TJManifest_permission.JavaClass.CAMERA);
+{$ENDIF}
+end;
+
+procedure TForm1.LabelDigitarClick(Sender: TObject);
+begin
+end;
+
+{ Make sure the camera is released if you're going away. }
+function TForm1.AppEvent(AAppEvent: TApplicationEvent;
+AContext: TObject): Boolean;
+begin
+end;
+
+procedure TForm1.CameraPermissionRequestResult(Sender: TObject;
+  const APermissions: TArray<string>;
+  const AGrantResults: TArray<TPermissionStatus>);
+begin
+  if (Length(AGrantResults) = 1) and
+    (AGrantResults[0] = TPermissionStatus.Granted) then
+  begin
+    Text1.Text := '';
+  end
+  else
+    TDialogService.ShowMessage
+      ('Cannot scan for barcodes because the required permissions is not granted')
+end;
+
+procedure TForm1.CodeReader1CodeReady(aCode: string);
+begin
+  Text1.Text := aCode;
+end;
+
+procedure TForm1.ExplainReason(Sender: TObject;
+  const APermissions: TArray<string>; const APostRationaleProc: TProc);
+begin
+  ShowMessage('O app necessita acesso a câmera para scanear o código de barras...');
+end;
+
+procedure TForm1.AbreCamera;
+begin
+  PermissionsService.RequestPermissions([fPermissionCamera],CameraPermissionRequestResult, ExplainReason);
+  CodeReader1.Start;
+end;
+
+function TForm1.AppBarcodeScanInstalado: Boolean;
+  {$IFDEF ANDROID}
+    var Intent : JIntent;
+        Info: JApplicationInfo;
+  {$ENDIF}
+begin
+   Try
+      Result := False;
+  {$IFDEF ANDROID}
+      Info := SharedActivityContext.getPackageManager.getApplicationInfo(
+            StringToJString('com.google.zxing.client.android'),0);
+
+      if Info.packageName.equals(StringToJString('com.google.zxing.client.android')) then
+      Begin
+        Result := True;
+      End;
+  {$ENDIF}
+
+    Except on E: Exception do
+    begin
+     Try
+       {$IFDEF ANDROID}
+         Intent := TJIntent.JavaClass.init(TJIntent.JavaClass.ACTION_VIEW);
+         Intent.setData(TJnet_Uri.JavaClass.parse(StringToJString(
+        'https://play.google.com/store/apps/details?id=com.google.zxing.client.android')));
+         Intent.setPackage(StringToJString('com.android.vending'));
+         SharedActivity.startActivity(intent);
+         SharedActivity.finishActivity(0);
+         {$ENDIF}
+      Except
+          ShowMessage('Erro ao abrir o Google Play !');
+        End;
+    End;
+  end;
+end;
+
+
+//procedure TForm1.ParseImage();
+//var wobject: TObject;
+//    wkeyword: word;
+//    wkeychar: char;
+//    wshift: TShiftState;
+//begin
+//  {$IFDEF ANDROID}
+//  wobject  := F_NovoPedido.EditPesquisa;
+//  wkeyword := vkReturn;
+//  wkeychar := #13;
+//  wshift   := [];
+// TThread.CreateAnonymousThread(
+//    procedure
+//    var
+//      ReadResult: TReadResult;
+//      ScanManager: TScanManager;
+//    begin
+//      try
+//        fScanInProgress := True;
+//        ScanManager := TScanManager.Create(TBarcodeFormat.Auto, nil);
+//        try
+//          ReadResult := ScanManager.Scan(fScanBitmap);
+//        except
+//          on E: Exception do
+//          begin
+//            TThread.Synchronize(TThread.CurrentThread,
+//              procedure
+//             begin
+//              end);
+//            exit;
+//          end;
+//        end;
+//        TThread.Synchronize(TThread.CurrentThread,
+//          procedure
+//          begin
+//            if (ReadResult <> nil) then
+//            begin
+//              if length(trim(ReadResult.text))>0 then
+//                 begin
+//                   F_NovoPedido.EditPesquisa.Text := ReadResult.text;
+//                   F_NovoPedido.EditPesquisa.OnKeyDown(wobject,wkeyword,wkeychar,wshift);
+//                   Form1.Close;
+//                 end;
+//            end;
+//          end);
+//      finally
+//        if ReadResult <> nil then
+//          FreeAndNil(ReadResult);
+//        ScanManager.Free;
+//       fScanInProgress := false;
+//      end;
+//    end).Start();
+// {$ENDIF}
+//end;
+
+
+
+procedure TForm1.RoundRect1Click(Sender: TObject);
+begin
+  AbreCamera;
+//  Form1.Close;
+//  F_NovoPedido.EditPesquisa.SetFocus;
+end;
+
+procedure TForm1.RoundRectSairClick(Sender: TObject);
+begin
+  Form1.Close;
+end;
+
+end.
